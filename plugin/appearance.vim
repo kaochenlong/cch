@@ -2,7 +2,7 @@
 " appearance
 "--------------
 set number
-set showmode
+set noshowmode
 set showcmd
 set nolist
 set wrap
@@ -11,3 +11,8 @@ set cursorline
 set ruler
 set showtabline=2
 
+"--------------
+" split window
+"--------------
+set splitbelow
+set splitright
