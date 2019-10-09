@@ -1,30 +1,24 @@
 "--------------
-" function
+" Function
 "--------------
 set nocompatible
 set clipboard=unnamed
 set noswapfile
 
 "--------------
-" scroll
+" Scroll
 "--------------
 set scrolloff=3
 
 "--------------
-" tab and space
+" Tab and space
 "--------------
 set softtabstop=2
 set shiftwidth=2
 set expandtab
 
 "--------------
-" split window
-"--------------
-set splitbelow
-set splitright
-
-"--------------
-" color
+" Color
 "--------------
 syntax on
 
@@ -34,9 +28,21 @@ catch
 endtry
 
 "--------------
-" filetype
+" Filetype
 "--------------
 filetype on
 filetype indent on
 filetype plugin on
 
+"--------------
+" Plugins
+"--------------
+call plug#begin('~/.vim/plugged')
+Plug 'ap/vim-css-color'
+Plug 'vim-airline/vim-airline'
+Plug 'scrooloose/nerdtree'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'mattn/emmet-vim'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-repeat'
+call plug#end()
