@@ -10,3 +10,4 @@ inoremap <DOWN> <NOP>
 inoremap <LEFT> <NOP>
 inoremap <RIGHT> <NOP>
 let mapleader = ","
+
