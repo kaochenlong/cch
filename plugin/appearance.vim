@@ -29,3 +29,13 @@ set softtabstop=2
 set shiftwidth=2
 set expandtab
 
+"--------------
+" ColorScheme
+"--------------
+syntax on
+
+try
+  colorscheme gruvbox
+catch
+endtry
+

@@ -8,7 +8,17 @@ call plug#begin('~/.vim/plugged')
   Plug 'mattn/emmet-vim'
   Plug 'tpope/vim-surround'
   Plug 'tpope/vim-repeat'
+
+  " for general purpose development
   Plug 'tomtom/tcomment_vim'
+  Plug 'MarcWeber/vim-addon-mw-utils'
+  Plug 'tomtom/tlib_vim'
+  Plug 'garbas/vim-snipmate'
+  Plug 'honza/vim-snippets'
+  Plug 'majutsushi/tagbar'
+  Plug 'mileszs/ack.vim'
+
+  " for ruby/rails development
   Plug 'vim-ruby/vim-ruby'
   Plug 'tpope/vim-rails'
   Plug 'thoughtbot/vim-rspec'
@@ -20,16 +30,6 @@ call plug#end()
 set nocompatible
 set clipboard=unnamed
 set noswapfile
-
-"--------------
-" ColorScheme
-"--------------
-syntax on
-
-try
-  colorscheme darkblue
-catch
-endtry
 
 "--------------
 " Filetype
