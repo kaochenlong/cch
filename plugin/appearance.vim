@@ -1,11 +1,11 @@
 "--------------
 " appearance
 "--------------
-set number
-set noshowmode
-set showcmd
-set nolist
-set wrap
+set number             " show line number
+set noshowmode         " disable mode(because of Vim-Airline)
+set showcmd            " display command
+set nolist             " do not display invisible characters
+set wrap              
 set linebreak
 set cursorline
 set ruler

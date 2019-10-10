@@ -1,8 +1,8 @@
 "--------------
 " search
 "--------------
-set hlsearch
-set ignorecase
-set incsearch
-set smartcase
+set hlsearch    " highlight matching characters while search
+set ignorecase  " case insensitive while searching
+set incsearch   " incremental search
+set smartcase   " search will be case-sensitive while searching with some upper case characters.
 
