@@ -31,6 +31,7 @@ call plug#end()
 set nocompatible
 set clipboard=unnamed
 set noswapfile
+set hidden
 
 "--------------
 " Filetype
