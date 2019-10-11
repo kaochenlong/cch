@@ -4,3 +4,4 @@ autocmd FileType html,css,scss EmmetInstall
 
 " map <Tab> to trigger Emmet
 autocmd Filetype html,css,scss imap <silent> <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
+
