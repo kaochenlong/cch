@@ -1,0 +1,17 @@
+snippet hoa
+	has_one_attached :${1:object}
+
+snippet smtp
+	config.action_mailer.delivery_method = :smtp 
+	config.action_mailer.smtp_settings = { 
+	  address: '${1:smtp.gmail.com}', 
+	  port: 587, 
+	  domain: '${2:kaochenlong.com}', 
+	  user_name: '${3:username}', 
+	  password: '${4:password}', 
+	  authentication: 'plain', 
+	  enable_starttls_auto: true 
+	}
+
+snippet mail
+	mail to: '${1:email}', subject: '${2:mail subject}'
