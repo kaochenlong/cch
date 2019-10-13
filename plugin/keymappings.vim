@@ -11,6 +11,3 @@ inoremap <DOWN> <NOP>
 inoremap <LEFT> <NOP>
 inoremap <RIGHT> <NOP>
 
-" remap leader key
-let mapleader = ","
-
