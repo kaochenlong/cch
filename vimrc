@@ -9,6 +9,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'mattn/emmet-vim'
   Plug 'tpope/vim-surround'
   Plug 'tpope/vim-repeat'
+  Plug 'terryma/vim-multiple-cursors'
 
   " for general purpose development
   Plug 'tomtom/tcomment_vim'
