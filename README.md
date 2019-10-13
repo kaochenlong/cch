@@ -31,4 +31,8 @@
 - Gruvbox <https://github.com/morhetz/gruvbox>
 - Wombat256 <https://github.com/vim-scripts/wombat256.vim>
 
+### 字型
+
+- InputMonoNarrow <https://input.fontbureau.com>
+
 by eddie@5xruby.tw
