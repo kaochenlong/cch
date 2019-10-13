@@ -35,6 +35,7 @@ set expandtab
 syntax on
 
 try
+  set background=dark
   colorscheme gruvbox
 catch
 endtry
