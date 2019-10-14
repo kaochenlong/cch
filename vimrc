@@ -19,6 +19,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'honza/vim-snippets'
   Plug 'majutsushi/tagbar'
   Plug 'mileszs/ack.vim'
+  Plug 'airblade/vim-gitgutter'
 
   " for ruby/rails development
   Plug 'vim-ruby/vim-ruby'
