@@ -10,6 +10,7 @@ set linebreak
 set cursorline
 set ruler
 set showtabline=2
+set shortmess=I       " remove splash wording
 
 "--------------
 " split window
@@ -32,6 +33,7 @@ set expandtab
 "--------------
 " ColorScheme
 "--------------
+set t_Co=256  " Number of colors
 syntax on
 
 try
@@ -40,4 +42,13 @@ try
   highlight EndOfBuffer cterm=NONE ctermfg=bg ctermbg=bg
 catch
 endtry
+
+"--------------
+" Sound
+"--------------
+" disable sound on errors
+set visualbell
+set noerrorbells
+set t_vb=
+set tm=500
 

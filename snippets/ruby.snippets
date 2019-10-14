@@ -1,5 +1,8 @@
 snippet hoa
 	has_one_attached :${1:object}
+	
+snippet anaf
+	accepts_nested_attributes_for :${1:object}, reject_if: :all_blank, allow_destroy: true
 
 snippet smtp
 	config.action_mailer.delivery_method = :smtp 
