@@ -10,7 +10,7 @@
 
 ## 我的設定檔
 
-目前它看起來是這個樣子：
+目前它看起來是這個樣子（使用配色 Gruvbox）：
 
 ![screenshot](/screenshots/cch.png)
 
