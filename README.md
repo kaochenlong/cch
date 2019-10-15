@@ -29,11 +29,15 @@
 
 1. 使用 `curl`：
 
-    $ sh <(curl -L https://github.com/kaochenlong/cch/raw/master/utils/install.sh)
+```
+$ sh <(curl -L https://github.com/kaochenlong/cch/raw/master/utils/install.sh)
+```
 
 2. 使用 `wget`： 
 
-    $ sh <(wget --no-check-certificate https://github.com/kaochenlong/cch/raw/master/utils/install.sh -O -)
+```
+$ sh <(wget --no-check-certificate https://github.com/kaochenlong/cch/raw/master/utils/install.sh -O -)
+```
 
 ## 使用套件
 
