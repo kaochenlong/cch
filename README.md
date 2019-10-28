@@ -43,6 +43,13 @@ $ sh <(curl -L https://github.com/kaochenlong/cch/raw/master/utils/install.sh)
 $ sh <(wget --no-check-certificate https://github.com/kaochenlong/cch/raw/master/utils/install.sh -O -)
 ```
 
+## 快捷鍵設定
+
+- F2 啟動/關閉 NERDTree 視窗
+- F3 啟動/關閉 Tagbar 視窗
+- F5 執行程式（Ruby / JavaScript）
+- Leader key = `,`
+
 ## 使用套件
 
 ### 外掛管理
