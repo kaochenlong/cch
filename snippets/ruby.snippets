@@ -18,3 +18,7 @@ snippet smtp
 
 snippet mail
 	mail to: '${1:email}', subject: '${2:mail subject}'
+
+snippet skip
+	skip_before_action :verify_authenticity_token
+
