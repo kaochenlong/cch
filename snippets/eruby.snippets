@@ -4,3 +4,19 @@ snippet render
 snippet nocache
 	<meta name="turbolinks-cache-control" content="no-cache">
 
+snippet fw
+	<%= form_with(model: ${1:model}) do |form| %>
+	
+	<% end %>
+
+snippet =text
+	<%= ${1:form}.text_field :${0:attribute} %>
+
+snippet =number
+	<%= ${1:form}.number_field :${0:attribute} %>
+
+snippet =submit
+	<%= ${1:form}.submit '${0:submit}' %>
+
+snippet =label
+	<%= ${1:form}.label :${2:attribute}, '${0:$2}' %>
