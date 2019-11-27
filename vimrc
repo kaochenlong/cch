@@ -25,6 +25,9 @@ call plug#begin('~/.vim/plugged')
   Plug 'vim-ruby/vim-ruby'
   Plug 'tpope/vim-rails'
   Plug 'thoughtbot/vim-rspec'
+
+  " for vue.js development
+  Plug 'leafOfTree/vim-vue-plugin'
 call plug#end()
 
 "--------------
@@ -35,6 +38,7 @@ set clipboard=unnamed
 set noswapfile
 set hidden
 set nobomb            " no BOM(Byte Order Mark)
+set mouse=a
 
 "--------------
 " Filetype and Encoding
