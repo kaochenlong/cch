@@ -12,6 +12,9 @@ snippet fw
 snippet =text
 	<%= ${1:form}.text_field :${0:attribute} %>
 
+snippet =textarea
+	<%= ${1:form}.text_area :${0:attribute} %>
+
 snippet =number
 	<%= ${1:form}.number_field :${0:attribute} %>
 
@@ -20,3 +23,8 @@ snippet =submit
 
 snippet =label
 	<%= ${1:form}.label :${2:attribute}, '${0:$2}' %>
+
+snippet =field
+	<div class="field">
+	  ${1}
+	</div>

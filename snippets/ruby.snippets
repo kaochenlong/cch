@@ -22,3 +22,6 @@ snippet mail
 snippet skip
 	skip_before_action :verify_authenticity_token
 
+snippet re
+	redirect_to ${1:path}, notice: '${2:message}'
+
