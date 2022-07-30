@@ -10,6 +10,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'tpope/vim-surround'
   Plug 'tpope/vim-repeat'
   Plug 'terryma/vim-multiple-cursors'
+  Plug 'chrisbra/matchit'
 
   " for general purpose development
   Plug 'tomtom/tcomment_vim'

@@ -65,6 +65,7 @@ $ sh <(wget --no-check-certificate https://github.com/kaochenlong/cch/raw/master
 - surround <https://github.com/tpope/vim-surround>
 - repeat <https://github.com/tpope/vim-repeat>
 - vim-multiple-cursors <https://github.com/terryma/vim-multiple-cursors>
+- matchit <https://github.com/chrisbra/matchit>
 
 ### 一般開發
 
@@ -95,5 +96,5 @@ $ sh <(wget --no-check-certificate https://github.com/kaochenlong/cch/raw/master
 
 有任何問題，歡迎直接來信，或是直接在 GitHub 上給我發個 Issue 或 Pull Request :)
 
-by 高見龍 eddie@5xruby.tw 
+by 高見龍 eddie@5xcampus.com
 

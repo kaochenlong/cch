@@ -1,6 +1,6 @@
 # my CCH Vimrc and plugins installer
 #
-# created by Eddie Kao <eddie@5xruby.tw>
+# created by Eddie Kao <eddie@5xcampus.com>
 # just for installing Vim configurations and plugins within one command.
 
 vim_folder=~/.vim
@@ -65,7 +65,7 @@ echo ""
 echo "\033[0;34mNice! Seems everything is going well.\033[0m"
 echo "\033[0;34mGithub Repository: https://github.com/kaochenlong/cch\033[0m"
 echo "\033[0;34mfeel free to fork it :)\033[0m"
-echo "\033[0;34m<Eddie Kao> eddie@5xruby.tw\033[0m"
+echo "\033[0;34m<Eddie Kao> eddie@5xcampus.com\033[0m"
 echo ""
 echo "\033[0;34mPeace :)\033[0m"
 echo ""
