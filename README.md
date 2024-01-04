@@ -2,7 +2,7 @@
 
 隨著 Vim 市佔率越來越低、其它像是 Visual Studio Code 之類的編輯器越來越多人使用（包括我自己也是會在上課的時候使用 VSCode 做為教學工具），身為 Vim 的愛用者，我希望可以讓更多人（？）可以知道 Vim 是個什麼樣的工具，所以錄製了「即將失傳的古老技藝 Vim」系列影片：
 
-播放清單：https://ubin.io/vim
+播放清單：https://www.youtube.com/playlist?list=PLBd8JGCAcUAH56L2CYF7SmWJYKwHQYUDI
 
 順便也趁這個機會整理了一下我自己原本在用的設定檔以及外掛。希望這些影片除了可以讓大家學習如何使用（或是離開）Vim 的同時，也能知道 Vim 的設定檔在做什麼事。
 
